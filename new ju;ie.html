@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  text-align: center;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  text-align: center;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  text-align: center;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  margin-right: 50px;
+  
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  font-size: 30px;
+  margin-left: 30px;
+  
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+  margin-top: 0px;
+  
+  
+}
+#navbar a {
+  float: left;
+  color:rgb(24, 24, 231);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-bottom: 0px;
+}
+
+/* Style the logo */
+#navbar #logo {
+  font-size: 80px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.write{
+  margin-top: 20px;
+  border-radius: 30px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.write-2{
+  margin-top: 20px;
+  border-radius: 30px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  line-height: 30px;
+
+
+
+
+}
+.J1 img{
+  margin-right: 100px;
+ 
+
+}
+.a1 {
+  font-size: 100px;
+}
+.a2{
+  font-size: 100px;
+}
+
+.B1{
+  background-color: black;
+}
+
+  </style>
+
+
+</head>
+<body style="padding-bottom: 300px; background-color: blue;">
+
+  <div id="navbar">
+    <a href="" id="logo"><u class ="a1" > JULIE</u>  ! 改变你  </a></div>
+
+  <div style="
+      margin-top: 300px;
+      display:grid;
+      grid-template-columns: 600px 600px;
+      column-gap: 30px; 
+      margin-left: 380px;">
+      
+      
+  
+   <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="julie2.jpg" alt="Avatar" style="width:500px;height: 400px;">
+      </div>
+
+      <div class="flip-card-back">
+        <h1>Beh Julie</h1>
+        <p>FB : 马茹莉</p>
+        <p>IG : behjulie827</p>
+      </div>
+      </div>
+    </div>
+   </div>
+
+   <div  class="B1" style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 500px 1fr ;
+        column-gap: 20px;
+        row-gap: 40px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        ">
+        <div class="write"
+        style="background-color:
+        lightblue; height:400px">当谈到马老师的数学教导，无不体现着她对学生的深刻影响。她以她的毅力和坚持，不断地激发学生们对数学的兴趣，让他们逐渐发现数学的美妙之处。无论遇到多大的困难，马老师总是倾心耐心地指导学生，鼓励他们勇敢地面对挑战。她的教学风格不仅仅是传授知识，更是培养学生的思维能力和解决问题的能力，让他们受益终身。马老师的教育故事是一种启示，证明了坚韧和持之以恒的重要性，无论在数学领域还是人生道路上。</div>
+        <div class="write-2"
+        style="background-color:
+        white;height:400px"><video controls width="800" height="350">
+        <source src="New video.mp4" type="video/mp4"> </video><div>
+
+        </div>
+
+
+    
+
+
+ 
+</body>
+</html>

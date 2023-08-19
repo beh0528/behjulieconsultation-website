@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Create a sticky/fixed navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 50px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+
+
+  
+  
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  color:rgb(12, 12, 236);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo */
+#navbar #logo {
+  font-size: 80px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+/* Links on mouse-over */
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link */
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+  width: 250px;
+  height: auto;
+}
+
+#navbar-right {
+  float: right;
+  margin-right: 200px;
+}
+
+.julie-picture{
+  margin-top: 200px;
+  margin-bottom: 20px;
+  
+}
+
+.scroll-container{
+   display: flex;
+   align-items: center;
+   column-gap: 10px;
+   overflow-x: auto;
+   scroll-snap-type: x mandatory;
+   scroll-snap-align: center;
+   min-width: 75%;
+   width: 100%;
+   height: 500px;
+   object-fit: cover;
+   
+
+
+  }
+  .R1{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+  }
+
+  .column-3{
+    color: blue;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+
+  }
+
+  .p1{
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .p2 {
+    font-size: 25px;
+  }
+
+  .p3{
+    font-size: 25px;
+    
+  }
+  .IG{
+    background-color: rgb(195, 8, 61);
+    
+  }
+  .car{
+    border-radius: 1000px;
+  }
+
+  .p3{
+    font-size: 20px;
+  }
+
+  
+
+
+  </style>
+</head>
+  <link rel="stylesheet" href="jj.css">
+<body style="padding-bottom: 300px; background-color: blue;">
+  <div id="navbar">
+    <a href="" id="logo"><u class ="a1" > JULIE</u>  ! 改变你 </a>
+    <div id="navbar-right">
+      <a class="active" href="https://www.facebook.com/messages/t/2104835062901729" >CONTACT</a>
+      <a  class="IG"  href="https://instagram.com/julieconsultation?igshid=MzRlODBiNWFlZA==">IG</a>
+      <a href="new ju;ie.html">About.Beh Julie</a>
+
+      
+    </div>
+  </div>
+  <div>
+    <img class="julie-picture"  src="julie.JPG" width="1500">
+  </div>
+
+  <div class="slider-container">
+    <div class="slider">
+      <img src="S__8691717.jpg" alt="图片1">
+      <img src="S__8691719.jpg" alt="图片2">
+      <img src="S__8691720.jpg" alt="图片3">
+      <img src="S__8691721.jpg" alt="图片4">
+      <img src="S__8691722.jpg" alt="图片5">
+      <img src="S__8691723.jpg" alt="图片6">
+      <img src="S__8691721.jpg" alt="图片7">
+      <img src="S__8691727.jpg" alt="图片7">
+      
+     
+    </div>
+    <button class="prev-button">&#8249;</button>
+    <button class="next-button">&#8250;</button>
+  </div>
+
+</div>
+<p class="R1"> 老师充分发挥主导作用，放手让学生寻求解决问题方法✍️✍️✍️</p>
+<dive>
+
+
+  <div style="
+      margin-top: 100px;
+      display:grid;
+      grid-template-columns: 600px;
+      column-gap: 30px; 
+      margin-left: 450px;">
+
+<div  class="column-3" style="background-color:
+lightblue; height: 300px;"><p class="p1">  独中统考补习班 </p> <p class="p2">（初中班) 国文 华文 英文 华数 英数 华科 英科</p> <p class="p3">（高中组）国文 华文 英文 华数 英数 华科 英科 簿记 商业 经济   普数 高级数学1 高级数学2</p>
+  <p class="p3">提供学生载送服务想了解详情请按上方的<u>联系按钮</u></p>
+</div>
+
+
+
+  <script src="jj.js"></script>
+
+
+</body>
+</html>
